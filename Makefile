@@ -1,2 +1,2 @@
 unit:
-	conftest test -p test/unit/bucket.rego main.tf
+	conftest test -p test/unit/bucket.rego terraform/main.tf

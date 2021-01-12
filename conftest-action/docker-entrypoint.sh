@@ -1,2 +1,2 @@
 #!/bin/sh
-ls -la
+make unit
