@@ -1,0 +1,9 @@
+on: [push]
+
+jobs:
+  unit_test:
+    runs-on: ubuntu-latest
+    name: Unit Test
+    steps:
+      - uses: actions/checkout@v2
+      - uses: ./conftest-action

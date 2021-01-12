@@ -1,0 +1,2 @@
+# Information  
+Example repository how to write policies with Open Policy Agent to auto-approve infrastructure changes for Terraform. Also have simple unit tests that uses conftest to check that resources are defined and they have correct values applied. This can't verify resource values that is coming from variables. Lastly there is a integration test that runs terraform apply and verifies that the infrastructure behaves correctly.

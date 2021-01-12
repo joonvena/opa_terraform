@@ -1,0 +1,5 @@
+name: 'Terraform with Conftest'
+description: 'Run Terraform with Conftest'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
